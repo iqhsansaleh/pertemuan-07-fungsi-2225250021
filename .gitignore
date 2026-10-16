@@ -1,0 +1,26 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments and local environment variables
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+!.env.example
+
+# VS Code local settings; keep shareable project configuration
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# Operating system files
+.DS_Store
+Thumbs.db
